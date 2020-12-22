@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+    @media (max-width: 1000px) {
+        padding: 0 40px;        
+    }
+    @media (max-width: 520px) {
+        flex-direction: column;
+    }
+    &__official {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        text-align: center;
+        @media (max-width: 1000px) {
+            display: none;
+        }
+        span {
+            display: block;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        @media (max-width: 520px) {
+            margin-top: 20px;
+        }
+    }
+    &__phone {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}   

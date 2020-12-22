@@ -1,0 +1,54 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+    transition: 0.3s all;
+    &:hover {
+        box-shadow: 3px 3px 15px rgb(219, 173, 173), -3px -3px 15px rgb(219, 173, 173);
+        transform: translate(0.5px, 0.5px);
+    }
+    &_top {
+        margin-top: 8px;
+    }
+    &_main {
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: $main-color;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 67px;
+        @media (max-width: 768px) {
+            margin-top: 97px;
+        }
+    }
+    &_submit {
+        width: 300px;
+        height: 55px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    &_catalog {
+        width: 131px;
+        height: 40px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,49 @@
+@import "mixins";
+@import "variables";
+@import "fonts";
+@import "reset";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advent";
+@import "animate";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+
+
+body {
+    font-family: MuseoSansCyrl;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    @media (max-width: 450px) {
+        font-size: 25px;
+    }
+}
+.title_left {
+    color: #fff;
+    text-align: left;
+    line-height: 38px;
+    @media (max-width: 1000px) {
+        text-align: center;
+    }
+    @media (max-width: 599px) {
+        font-size: 25px;
+    }
+}
+
